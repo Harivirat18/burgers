@@ -1,0 +1,219 @@
+.banner-contact {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(https://dev-restaurant.eezzypos.com/1-1-i3LHVUj7J4NSuQYx0aRk.png);
+  padding: 150px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-contact .contact {
+  color: white;
+  text-align: center;
+}
+.banner-contact .contact h1 {
+  font-size: 60px;
+}
+.banner-contact .contact h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.banner-contact .contact h2 span {
+  color: #d01c1a;
+}
+
+.contact-proof {
+  background: url(../Image/Contact/background.webp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+.contact-proof .contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-proof .contacts .proof {
+  background-color: #d01c1a;
+  color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 30%;
+  padding: 24px 20px;
+  border-radius: 5px;
+}
+.contact-proof .contacts .proof i {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25px;
+  width: 50px;
+  color: #d01c1a;
+  background-color: white;
+}
+.contact-proof .contacts .proof h3 {
+  margin-bottom: 10px;
+}
+
+.line {
+  background: url(../Image/Contact/background.webp);
+}
+
+.map iframe {
+  height: 70vh;
+}
+
+.food-bg {
+  background: url(../Image/Contact/background.webp);
+}
+.food-bg .food-content img {
+  margin-top: 30px;
+}
+
+.order-now {
+  background: url(../Image/order.bg.webp);
+}
+.order-now .pre {
+  padding-top: 150px;
+  padding-bottom: 15px;
+}
+.order-now .pre .pre-order {
+  background-color: rgb(251, 236, 196);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1250px;
+  margin: auto;
+  border-radius: 5px;
+}
+.order-now .pre .pre-order span {
+  color: #d01c1a;
+}
+.order-now .pre .pre-order .time {
+  font-weight: bold;
+}
+.order-now .pre .pre-order .takeaway {
+  font-size: 14px;
+}
+.order-now .pre .list-items {
+  padding: 50px 50px 0px 50px;
+  display: flex;
+  gap: 20px;
+}
+.order-now .pre .list-items .menu-list {
+  width: 23%;
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+.order-now .pre .list-items .menu-list ul {
+  list-style-type: none;
+}
+.order-now .pre .list-items .menu-list ul h3 {
+  padding: 10px 0px;
+}
+.order-now .pre .list-items .menu-list ul li {
+  border-bottom: 1px solid rgb(242, 244, 243);
+  padding: 15px 0;
+}
+.order-now .pre .list-items .menu-list ul li:hover {
+  color: #d01c1a;
+  cursor: pointer;
+}
+.order-now .pre .list-items .cart {
+  background-color: white;
+  width: 30%;
+  height: 50vh;
+}
+.order-now .pre .list-items .cart .your-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.order-now .pre .list-items .cart .your-cart div {
+  background-color: #d01c1a;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.order-now .pre .list-items .cart .your-cart div span {
+  padding-right: 35px;
+}
+.order-now .pre .list-items .cart em {
+  display: block;
+  color: grey;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.order-now .pre .list-items .cart p {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.order-now .pre .list-items .search {
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+.order-now .pre .list-items .search ul {
+  list-style-type: none;
+  padding: 20px;
+  overflow-x: hidden;
+  height: 60vh;
+}
+.order-now .pre .list-items .search ul h3 {
+  font-size: 15px;
+  color: #d01c1a;
+}
+.order-now .pre .list-items .search ul h2 {
+  font-size: 15px;
+  padding: 10px 0px;
+}
+.order-now .pre .list-items .search ul li {
+  border-bottom: 1px solid rgb(242, 244, 243);
+  padding: 15px 0;
+}
+.order-now .pre .list-items .search ul li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-now .pre .list-items .search ul li div a {
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #d01c1a;
+  color: white;
+  border-radius: 5px;
+}
+.order-now .pre .list-items .search ul li div em {
+  font-style: normal;
+  padding-right: 20px;
+  font-weight: 600;
+}
+.order-now .pre .list-items .search-icon {
+  position: relative;
+  width: 40%;
+}
+.order-now .pre .list-items .search-icon input {
+  width: 100%;
+  padding: 15px 0px 15px 30px;
+  border: none;
+  border-radius: 5px;
+}
+.order-now .pre .list-items .search-icon input:focus {
+  border: none;
+}
+.order-now .pre .list-items .search-icon .icon {
+  position: absolute;
+  top: 14px;
+  left: 6px;
+  color: gray;
+}
+.order-now .pre .list-items .search-icon .close {
+  position: absolute;
+  right: 5px;
+  top: 12px;
+}/*# sourceMappingURL=contact.css.map */

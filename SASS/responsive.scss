@@ -1,0 +1,214 @@
+@media (max-width : 991px){
+    header{
+        justify-content: space-between;
+        padding: 20px;
+        .nav-mid{
+            display: none;
+        }
+        .nav-right{
+            a{
+                display: none;
+            }
+        }
+        
+    }
+    
+}
+
+
+@media (max-width:991px ) {
+    .banner{
+        padding: 0px 20px;
+        .banner-content{
+            h1{
+                font-size: 30px;
+            }
+        }
+    }   
+}
+
+@media (max-width:991px){
+    .food{
+        padding: 50px 15px;
+        max-width: 640px;
+        margin: auto;
+        .food-image{
+            width: 100%;
+            img{
+                max-width: 100%;
+            }
+        }
+        .food-content{
+            width: 100%;
+            padding: 50px 15px;
+            h2{
+                font-size: 30px;
+                margin-top: 20px;
+            }
+            img{
+                margin-top: 30px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:991){
+    .menu{
+        padding: 0px;
+        h1{
+            font-size: 30px;
+        }
+        .menu-img{
+            flex-wrap: wrap;
+            gap: 0px;
+        }
+    }
+}
+
+@media (max-width : 991px){
+    .order{
+        flex-wrap: wrap;
+        max-width: 640px;
+        .deals{
+            width: 100%;
+            margin: 30px 0px;
+        }
+        .offers{
+            width: 100%;
+            gap: 15px;
+            .offer1{
+                width: 100%;
+                padding: 100px 50px;
+                text-align: center;
+            }
+            .offer2{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .about{
+        padding: 0px;
+        div{
+            width: 100%;
+            padding: 40px 0px;
+            p{
+                margin: auto;
+                max-width: 300px;
+            }
+            img{
+                margin: 0px;
+            }
+            h1{
+                margin: 10px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:991px){
+    footer{
+        .foot-logo{
+            text-align: center;
+            display: block;
+            padding: 25px 0px;
+            ul{
+                display: block;
+                li{
+                    padding: 15px 0px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .social{
+            padding-top: 30px;
+            img{
+                padding-top: 25px;
+            }
+        }
+        .address{
+            flex-wrap: wrap;
+            gap: 5px;
+            padding: 10px;
+            .red-line{
+                visibility: hidden;
+            }
+        }
+        .copy{
+            flex-wrap: wrap;
+            padding: 15px;
+            justify-content: space-evenly;
+        }
+    }
+    
+}
+
+
+@media (min-width:992px){
+    header{
+        .nav-right{
+            ul{
+                .bar{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+//contact html
+
+@media (max-width : 991px){
+    .contact-proof{
+        .contacts{
+            justify-content: center;
+            flex-wrap: wrap;
+            .proof{
+                width: 100%;
+                margin: 15px;
+                i{
+                    font-size: 20px;
+                }
+               
+            }
+        }
+    }
+}
+
+//order html
+
+@media (max-width : 991px){
+    .order-now{
+        .pre{
+            .pre-order{
+                margin: 0 20px;
+            }
+            .list-items{
+                flex-wrap: wrap;
+                .menu-list{
+                    width: 100%;
+                }
+                .cart{
+                    width: 100%;
+                    .your-cart{
+                        
+                    }     
+                }
+                .search{
+                    
+                }
+                .search-icon{
+                        width: 100%;
+                }
+            }
+        }
+    }
+    
+}
